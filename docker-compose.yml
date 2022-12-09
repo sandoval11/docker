@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  alpine:
+
+
+    image: alpine:3.8
+
+
+    command: sleep 600
+
+
+    extra_hosts:
+      - "myhost:123.242.195.42"
+      - "myotherhost:150.31.209.42"
